@@ -1,0 +1,55 @@
+@import "../../assets/sass/global"
+
+.item-franchise-container
+    width: 25rem
+    min-height: 
+    background: #F7F7F7
+    border-radius: 8px
+    padding: 2rem
+    margin-top: 2rem
+    cursor: pointer
+    border: 1px solid #d1d1d1
+    -webkit-transition: transform 250ms
+    transition: transform 250ms
+
+    .franchise-image
+        width: 5rem
+        background: #eaeaea
+        border: 1px solid #d1d1d1
+        border-radius: 5px
+
+    .franchise-name
+        font-weight: 500
+        font-size: 1.5rem
+        width: 100%
+        text-overflow: ellipsis
+        overflow: hidden
+        white-space: pre
+    
+    .franchise-company-name
+        color: $text-secondary
+
+    .franchise-description
+        margin-top: 1rem
+        color: $text-secondary
+    
+    .capital-info
+        margin-top: 2rem
+        
+        .label-info
+            font-size: 1rem
+            font-weight: 500
+
+            svg
+                margin-right: 0.5rem
+
+        .info-content
+            margin-top: 0.5rem
+            font-size: 1rem
+            color: $text-secondary
+
+    &:hover
+        box-shadow: 0 2px 0 #d1d1d1
+        transform: translate(0, -0.25rem);
+
+    
